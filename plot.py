@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # This will give the path of a projectile launched at angle theta and initial
 # speed v0
 
-GRAVITY = 0.98 # m/s^2
+GRAVITY = 0.5 # m/s^2
 
 theta = math.pi/4    # 45 deg - launch angle
 v0 = 1          # m/s    - initial speed
