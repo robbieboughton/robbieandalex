@@ -25,8 +25,8 @@ plt.plot(x, y, linewidth=3, color='black')
 plt.xlabel(r'$x\,(\mathrm{m})$')
 plt.ylabel(r'$y\,(\mathrm{m})$', rotation=0)
 plt.title('Trajectory of projectile')
-plt.xlim([0, 0.7])
-plt.ylim([0, 0.3])
+plt.xlim([0, 1])
+plt.ylim([0, 1])
 
 # Creating the plot with plt.plot does not mean that we can see the plot!
 # We need to "show" the plot:
